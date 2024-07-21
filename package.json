@@ -1,0 +1,27 @@
+{
+  "name": "evm",
+  "version": "1.0.0",
+  "description": "hehe",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/index.ts"
+  },
+  "repository": "https://github.com/0xquicksilver/evm.git",
+  "author": "0xquicksilver",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/figlet": "^1.5.8",
+    "@types/node": "^20.14.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@crocswap-libs/sdk": "^1.0.2",
+    "axios": "^1.7.2",
+    "cli-table3": "^0.6.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.1",
+    "figlet": "^1.7.0"
+  }
+}
